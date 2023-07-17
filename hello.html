@@ -1,29 +1,44 @@
 <html>
 <head>
-
 	<link rel="stylesheet" type="text/css" href="wizard.css">
-
 	<style src="wizard.css"></style>
-	<title>The Wizard's Tower </title>
+	<title>The Wizard's Tower</title>
+	<style>
+		.button-container {
+			display: flex;
+			justify-content: center;
+			margin-top: 20px;
+		}
+	</style>
 </head>
-<body><p>
-I love wizards
-wizards are real, I'm sure of it.
-I've seen a few myself.
-Here's a Haiku about wizards</p>	
+<body>
+	<center>
+		<p>The Wizard Center</p>
+	</center>
+	
+	<center>
+		<h1 id="thingmabob">
+			I love wizards. Wizards are real, I'm sure of it. </br>I've seen a few myself.
+			 Here's a Haiku about wizards: </br>
+			Smoke rings and fireworks
+			A wizard arrives just in time
+			Though not sure why
+		</h1>
+		<h2 class="text2">
+			Wizards can cast spells, use forces, do magic, and hold extreme wisdom.
+			Here is a cool image of a wizard.
+		</h2>
 
-<h1 id="thingmabob">
-Smoke rings and fireworks
-A wizard arrives just in time
-Though not sure why</h1>
-<h2 class="text2">
-Wizards can cast spells, use forces, do magic, and hold an extreme wisdom.
-	here is a cool image of a wizard. </h2>
-	<img src="wizard.jpg" style="width:400px;height:200px;">
+		<img src="wizard.jpg" style="width:400px;height:200px;">
+	</center>
 
-<a href="https://en.wikipedia.org/wiki/Magician_(fantasy)">wizard wiki </a>
-<button onclick="changeBackground()">change bg color</button>
+	<center>
+		<a href="https://en.wikipedia.org/wiki/Magician_(fantasy)">Wizard Wiki</a>
+		<div class="button-container">
+			<button onclick="changeBackground()">Change Background Color</button>
+		</div>
+	</center>
 
-<script src="main.js" ></script>
-</body>	
+	<script src="main.js"></script>
+</body>
 </html>
